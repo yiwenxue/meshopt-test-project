@@ -1,0 +1,123 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "35eaa2d5-268e-4dfe-a55c-cc08c22f80d6",
+  "files": [],
+  "subMetas": {
+    "e8b59": {
+      "importer": "gltf-mesh",
+      "uuid": "35eaa2d5-268e-4dfe-a55c-cc08c22f80d6@e8b59",
+      "displayName": "",
+      "id": "e8b59",
+      "name": "Archmodels_64_032_0.003.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 29324
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7680a": {
+      "importer": "gltf-material",
+      "uuid": "35eaa2d5-268e-4dfe-a55c-cc08c22f80d6@7680a",
+      "displayName": "",
+      "id": "7680a",
+      "name": "Archmodels_64_032.002.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "11c86": {
+      "importer": "gltf-scene",
+      "uuid": "35eaa2d5-268e-4dfe-a55c-cc08c22f80d6@11c86",
+      "displayName": "",
+      "id": "11c86",
+      "name": "terracotta00.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "35eaa2d5-268e-4dfe-a55c-cc08c22f80d6@11c86",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "35eaa2d5-268e-4dfe-a55c-cc08c22f80d6@e8b59"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "35eaa2d5-268e-4dfe-a55c-cc08c22f80d6@7680a"
+      ],
+      "scenes": [
+        "35eaa2d5-268e-4dfe-a55c-cc08c22f80d6@11c86"
+      ]
+    },
+    "meshOptimize": {
+      "enable": false,
+      "vertexCache": true,
+      "vertexFetch": true,
+      "overdraw": true
+    },
+    "meshSimplify": {
+      "enable": false,
+      "autoErrorRate": true,
+      "targetRatio": 0.37,
+      "lockBoundary": true,
+      "errorRate": 0.43
+    },
+    "meshCompress": {
+      "encode": true,
+      "enable": false,
+      "quantize": true,
+      "compress": true
+    },
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "addVertexColor": false,
+    "generateLightmapUVNode": false,
+    "meshCluster": {
+      "enable": false
+    }
+  }
+}

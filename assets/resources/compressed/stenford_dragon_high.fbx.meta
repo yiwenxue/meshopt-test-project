@@ -1,0 +1,119 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "e52db6f2-6eb3-43d8-967c-8b69728f23ac",
+  "files": [],
+  "subMetas": {
+    "46370": {
+      "importer": "gltf-mesh",
+      "uuid": "e52db6f2-6eb3-43d8-967c-8b69728f23ac@46370",
+      "displayName": "",
+      "id": "46370",
+      "name": "stenford_dragon_high.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1031488
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9fc3e": {
+      "importer": "gltf-material",
+      "uuid": "e52db6f2-6eb3-43d8-967c-8b69728f23ac@9fc3e",
+      "displayName": "",
+      "id": "9fc3e",
+      "name": "Material #19.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "548c6": {
+      "importer": "gltf-scene",
+      "uuid": "e52db6f2-6eb3-43d8-967c-8b69728f23ac@548c6",
+      "displayName": "",
+      "id": "548c6",
+      "name": "stenford_dragon_high.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "e52db6f2-6eb3-43d8-967c-8b69728f23ac@548c6",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "e52db6f2-6eb3-43d8-967c-8b69728f23ac@46370"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "e52db6f2-6eb3-43d8-967c-8b69728f23ac@9fc3e"
+      ],
+      "scenes": [
+        "e52db6f2-6eb3-43d8-967c-8b69728f23ac@548c6"
+      ]
+    },
+    "meshOptimize": {
+      "enable": true,
+      "vertexCache": true,
+      "vertexFetch": true,
+      "overdraw": true
+    },
+    "meshSimplify": {
+      "enable": false,
+      "autoErrorRate": true,
+      "targetRatio": 0.46,
+      "lockBoundary": true
+    },
+    "meshCompress": {
+      "encode": true,
+      "enable": true,
+      "quantize": true,
+      "compress": true
+    },
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "addVertexColor": false,
+    "generateLightmapUVNode": false
+  }
+}

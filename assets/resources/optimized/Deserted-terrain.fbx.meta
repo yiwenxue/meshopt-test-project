@@ -1,0 +1,169 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "5e966db8-0254-48a8-9c0f-032afae6eca9",
+  "files": [],
+  "subMetas": {
+    "a5f8b": {
+      "importer": "gltf-mesh",
+      "uuid": "5e966db8-0254-48a8-9c0f-032afae6eca9@a5f8b",
+      "displayName": "",
+      "id": "a5f8b",
+      "name": "Plane.001.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 520200
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "5e966db8-0254-48a8-9c0f-032afae6eca9@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "5e966db8-0254-48a8-9c0f-032afae6eca9@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "5e966db8-0254-48a8-9c0f-032afae6eca9@48b02"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ff2f6": {
+      "importer": "gltf-material",
+      "uuid": "5e966db8-0254-48a8-9c0f-032afae6eca9@ff2f6",
+      "displayName": "",
+      "id": "ff2f6",
+      "name": "deserted terrain.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ed3ee": {
+      "importer": "gltf-scene",
+      "uuid": "5e966db8-0254-48a8-9c0f-032afae6eca9@ed3ee",
+      "displayName": "",
+      "id": "ed3ee",
+      "name": "Deserted-terrain.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "5e966db8-0254-48a8-9c0f-032afae6eca9@48b02"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "5e966db8-0254-48a8-9c0f-032afae6eca9@ed3ee",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "5e966db8-0254-48a8-9c0f-032afae6eca9@a5f8b"
+      ],
+      "skeletons": [],
+      "textures": [
+        "5e966db8-0254-48a8-9c0f-032afae6eca9@7d6ab"
+      ],
+      "materials": [
+        "5e966db8-0254-48a8-9c0f-032afae6eca9@ff2f6"
+      ],
+      "scenes": [
+        "5e966db8-0254-48a8-9c0f-032afae6eca9@ed3ee"
+      ]
+    },
+    "meshOptimize": {
+      "enable": true,
+      "vertexCache": true,
+      "vertexFetch": true,
+      "overdraw": true
+    },
+    "meshSimplify": {
+      "enable": false,
+      "autoErrorRate": true,
+      "targetRatio": 0.46,
+      "lockBoundary": true
+    },
+    "meshCompress": {
+      "encode": true,
+      "enable": true,
+      "quantize": true,
+      "compress": false
+    },
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "addVertexColor": false,
+    "generateLightmapUVNode": false
+  }
+}
