@@ -20,7 +20,6 @@ export class control extends Component {
         director.loadScene('loader-compressed');
     }
 
-
     public onLoadOriginalClicked () {
         // load scene
         director.loadScene('loader-original');

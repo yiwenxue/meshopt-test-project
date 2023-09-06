@@ -4350,12 +4350,12 @@
       "enable": true,
       "vertexCache": true,
       "vertexFetch": true,
-      "overdraw": true
+      "overdraw": false
     },
     "meshCompress": {
       "enable": true,
       "encode": true,
-      "compress": true,
+      "compress": false,
       "quantize": true
     }
   }

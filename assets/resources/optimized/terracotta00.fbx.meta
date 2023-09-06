@@ -97,7 +97,7 @@
       "enable": true,
       "vertexCache": true,
       "vertexFetch": true,
-      "overdraw": true
+      "overdraw": false
     },
     "meshSimplify": {
       "enable": false,

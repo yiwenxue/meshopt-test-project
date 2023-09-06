@@ -36,32 +36,12 @@ export class benchmark extends Component {
                     return;
                 }
 
-                let downloadSize = 0;
-                let meshSize = 0;
-                
+                let meshSize = 0;                
                 for (const asset of assets) {
-                    // query the asset file size without downloading it
-                    const request = new XMLHttpRequest();
-                    request.open('HEAD', asset.nativeUrl, false);
-                    request.onreadystatechange = () => {
-                        if (request.readyState === 4) {
-                            if (request.status === 200 || request.status === 304) {
-                                const nativeSize = Number(request.getResponseHeader('Content-Length'));
-                                downloadSize += nativeSize;
-                                meshSize += asset.data.byteLength;
-                                this.label.string = 
-                                    `load all meshes in ${this.folder} consumed ${this.end - this.begin}ms` + '\n' +
-                                    `download size:           ${formatFileSize(downloadSize)}\n` +
-                                    `mesh size:                ${formatFileSize(meshSize)}\n` + 
-                                    `saved size:                ${formatFileSize(meshSize - downloadSize)}\n` +
-                                    `saved ratio:              ${((meshSize - downloadSize) / meshSize * 100).toFixed(2)}%`;
-                                console.log(`mesh ${asset.nativeUrl} size: ${asset.data.byteLength / 1024}KB ori Size: ${nativeSize / 1024}KB`);
-                            } else {
-                                console.error(`mesh ${asset.nativeUrl} load failed`);
-                            }
-                        }
-                    };
-                    request.send();
+                    meshSize += asset.data.byteLength;
+                    this.label.string = 
+                    `load all meshes in ${this.folder} consumed ${this.end - this.begin}ms` + '\n' +
+                    `mesh size:                ${formatFileSize(meshSize)}\n`;
                 }
             });
         }, 0);
